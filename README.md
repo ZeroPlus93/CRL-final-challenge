@@ -54,6 +54,10 @@ The last parst was adding the media queries in. I kept in mind where I needed to
 - [Example resource 1](https://www.youtube.com/@KevinPowell) - Great youtuber explaining basic HTML & CSS
 - [Example resource 2](https://courses.kevinpowell.co/) - The Conquering Responsive Layouts course, was my first introduction to responsive layouts. This gave me a basic understanding if responsive web layouts and media queries.
 
+## Webpage result
+
+https://zeroplus93.github.io/CRL-final-challenge/
+
 ## Author
 
 - GitHub - [@ZeroPlus93](https://github.com/ZeroPlus93)
