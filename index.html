@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRL Final Challenge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <!-- Main header section -->
+    <header class="main-header">
+      <div class="container header-row">
+        <a id="logo" href="/index.html">CLR</a>
+        <nav class="nav__list">
+          <ul class="nav__list--primary">
+            <li class="nav__link">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav_link">
+              <a href="#">About</a>
+            </li>
+            <li class="nav__link">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <ul class="nav__list--secondary">
+            <li class="nav__link">
+              <a href="#">Sign in</a>
+            </li>
+            <li class="nav__link">
+              <a class="btn" href="#">Sign up</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Menu button linking to the aside section -->
+        <a class="menu-btn" href="#side-drawer">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+      </div>
+    </header>
+
+    <!-- The side drawer when menu button is pressed -->
+    <aside id="side-drawer">
+      <header>
+        <a id="logo" href="/index.html">CLR</a>
+        <a class="menu-btn" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </header>
+      <nav>
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Sign in</a>
+          </li>
+          <li>
+            <a href="#">Sign up</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main page -->
+    <main>
+
+      <!-- Section one -->
+      <section class="section__one">
+        <div class="container row">
+          <div class="section__one--title">
+            <h1>
+              Responsive layouts
+              <span class="accent">don't have to be a struggle</span>
+            </h1>
+          </div>
+          <div class="section__one--content">
+            <iframe src="https://www.youtube.com/embed/dldpud1PuL8" width="100%" height="280" frameborder="0" allow="fullscreen"></iframe>
+            <p class="section__one--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+              alias neque quam. Quas, voluptatum cumque numquam deserunt animi
+              iure ab dignissimos.
+            </p>
+            <a class="btn" href="https://www.kevinpowell.co/courses/" target="_blank">I want to learn</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section two -->
+      <section class="section__two">
+        <div class="container row">
+          <div class="col">
+            <h3 class="section__two--title" data-icon="mobile-phone">Mobile-first</h3>
+            <p class="section__two--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit sed optio voluptatum eos, quasi aspernatur saepe aut
+              eum sit, est dolores quos ratione nobis. Eligendi vel fugit ullam
+              reprehenderit voluptate.
+            </p>
+          </div>
+          <div class="col">
+            <h3 class="section__two--title" data-icon="graph">Efficient</h3>
+            <p class="section__two--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit sed optio voluptatum eos, quasi aspernatur saepe aut
+              eum sit, est dolores quos ratione nobis. Eligendi vel fugit ullam
+              reprehenderit voluptate.
+            </p>
+          </div>
+          <div class="col">
+            <h3 class="section__two--title" data-icon="check">Done right</h3>
+            <p class="section__two--text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit sed optio voluptatum eos, quasi aspernatur saepe aut
+              eum sit, est dolores quos ratione nobis. Eligendi vel fugit ullam
+              reprehenderit voluptate.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section three -->
+      <section class="section__three">
+        <div class="container row-big">
+          <div class="section__three--content">
+            <h2 class="section__three--title">It doesn't have to be so hard</h2>
+            <p class="section__three--text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+              culpa itaque voluptatem rem explicabo quod saepe vitae quibusdam
+              deserunt, unde, excepturi ullam officiis laudantium dolore, rerum
+              expedita beatae! Ullam, laudantium!
+            </p>
+            <picture>
+              <img
+                class="section__three--img"
+                src="./images/the-image.jpg"
+                alt="Some sketches"
+              />
+            </picture>
+            <p class="section__three--text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas
+              culpa itaque voluptatem rem explicabo quod saepe vitae quibusdam
+              deserunt, unde, excepturi ullam officiis laudantium dolore, rerum
+              expedita beatae! Ullam, laudantium!
+            </p>
+          </div>
+
+          <!-- Sidebar of section three -->
+          <div class="section__three--sidebar row-small">
+            <div class="col">
+              <h3 class="section__three--sidebar--title">Break it down</h3>
+              <p class="section__three--sidebar--text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                vel eius cumque unde molestiae dicta eaque omnis. Facere amet ex
+                perspiciatis laborum.
+              </p>
+            </div>
+            <div class="col">
+              <h3 class="section__three--sidebar--title">Work your way up</h3>
+              <p class="section__three--sidebar--text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                vel eius cumque unde molestiae dicta eaque omnis. Facere amet ex
+                perspiciatis laborum.
+              </p>
+            </div>
+            <div class="col">
+              <h3 class="section__three--sidebar--title">Have fun</h3>
+              <p class="section__three--sidebar--text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                vel eius cumque unde molestiae dicta eaque omnis. Facere amet ex
+                perspiciatis laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="main-footer">
+      <h2 class="footer__title">Just scratching the surface</h2>
+      <div class="container row">
+        <div class="footer__col">
+          <h3 class="footer__subtitle">About our company</h3>
+          <p class="footer__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            minima doloribus, quas debitis incidunt voluptatibus quo quidem
+            iusto mollitia illo laborum beatae. Vitae perferendis est nobis
+            consectetur, totam incidunt fugit.
+          </p>
+        </div>
+        <div class="footer__col footer__row">
+            <div class="footer__col">
+                <h3 class="footer__subtitle">Getting around</h3>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h3 class="footer__subtitle">Other things</h3>
+                <ul>
+                    <li>
+                        <a href="#">Lorem</a>
+                    </li>
+                    <li>
+                        <a href="#">Dolor</a>
+                    </li>
+                    <li>
+                        <a href="#">Sit amet</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h3 class="footer__subtitle">And more</h3>
+                <ul>
+                    <li>
+                        <a href="#">Consecteur</a>
+                    </li>
+                    <li>
+                        <a href="#">facilis</a>
+                    </li>
+                    <li>
+                        <a href="#">delectus</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
